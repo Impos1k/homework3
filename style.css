@@ -1,0 +1,127 @@
+body{
+    background-color:gainsboro;
+    margin: 0px auto;
+    max-width: 1330px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.font-title{
+    color:rgb(59, 59, 59);
+}
+.font-awesome{
+    background-color: rgb(19, 26, 53);
+    border-radius: 20px;
+    width: 500px;
+    transition: width 2s;
+}
+.font-awesome:hover{
+    width: 1300px;
+}
+.font-marvel, .font-dc, .font-starwars{
+    color:white;
+    padding: 15px 0px;
+    padding-left: 40px;
+}
+.font-marvel:hover{
+    font-size: 120%;
+}
+.font-dc:hover{
+    font-size: 120%;
+}
+.font-starwars:hover{
+    font-size: 120%;
+}
+.font-text{
+    padding-top: 10px;
+}
+.transform-title{
+    padding-top: 30px;
+    color:rgb(59, 59, 59);
+}
+.transform-container{
+    width: 1250px;
+    margin: 0 0 20px 0;
+    padding: 30px;
+    background-color: rgb(19, 26, 53);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.transform-block-elem{
+    background-color:gainsboro ;
+    height: 100px;
+    width: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+
+}
+@keyframes skew{
+0%{ transform: skewX(20deg);}
+100%{ transform: skewX(-20deg);}
+}
+.background-title{
+    color:rgb(59, 59, 59);
+    padding-top: 10px;
+}
+.background-block{
+    width: 1300px;
+    height: 600px;
+    background-image:url(	https://kfund.github.io/web-front-end/lesson8/assets/images/universe.jpg)
+}
+.background-text{
+    padding-top: 20px;
+}
+.picture-title{
+    color:rgb(59, 59, 59);
+    padding-top: 30px;
+}
+.picture-image {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.picture-image img{
+    max-width: 100%;
+}
+.object-title{
+    color:rgb(59, 59, 59);
+    padding-top: 10px;
+}
+.object-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pictures{
+    object-fit: cover;
+}
+.row-title{
+    padding-top: 30px;
+    color:rgb(59, 59, 59);
+}
+.row-marvel , .row-dc , .row-starwars{
+    width: 100%;
+    height: 100%;
+    display: flex;
+} 
+.marvel-img, .starwars-img, .dc-img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+.row-container{
+    width: 100%;
+    height: 100%;
+}
+.row-marvel-text, .row-dc-text, .row-starwars-text{
+    display: block;
+}

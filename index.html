@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27edb59c19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title"><strong>Lesson 8. Images. Font Awesome. Basic animation</strong></h1>
+    <h2 class="font-title">Font Awesome + transition</h2>
+    <div class="font-awesome">
+        <div class="font-marvel"><i class="fas fa-check-square">Marvel
+            </i></div>
+        <div class="font-dc"><i class="fas fa-spinner">DC
+            </i></div>
+        <div class="font-starwars"><i class="far fa-square">Starwars
+            </i></div>
+    </div>
+    <div class="font-text">Наведись на синий блок и узри магию <b>transition.</b></div>
+    <div class="transform-title">
+        <h2>Transform</h2>
+    </div>
+    <div class="transform-container">
+        <div class="transform-block-elem"></div>
+        <div class="transform-block-elem"></div>
+        <div class="transform-block-elem"></div>
+    </div>
+    <div class="transform-text"><b>Transform & keyframes</b> в действии.</div>
+    <div class="background-title">
+        <h2>CSS Background</h2>
+    </div>
+    <div class="background-block"></div>
+    <div class="background-text">Выставляем картинку через <b>CSS</b> свойство <b>background.</b></div>
+    <div class="picture-title">
+        <h2>Images ( HTML Picture )</h2>
+    </div>
+    <div class="picture-image">
+        <picture class="picture-image">
+            <source srcset="assets/marvel.jpg" type="image/jpeg" media="(min-width:1330px)">
+            <source srcset="assets/dc.jpg" type="image/jpeg" media="(min-width:992px)">
+            <source srcset="assets/starwars.png" type="image/jpeg" media="(max-width:992px)">
+            <img src="assets/1300x400.jpg" alt="">
+        </picture>
+    </div>
+    <div class="picture-text">
+        <p>Использование тега <b>picture</b> для отображения нужной картинки на нужном разрешении.</p>
+
+        <p> Открой эту страницу на <b>разных девайсах</b> и посмотри на результат.</p>
+    </div>
+    <div class="object-title">
+        <h2>Universes (HTML object-fit )</h2>
+    </div>
+    <div class="object-container">
+        <div class="object-item-starwars"><img src="assets/starwars.png" alt="" class="pictures" width="380px"
+                height="220px">
+            <p>Здесь кроется картинка с разрешением <b>300*181</b></p>
+        </div>
+        <div class="object-item-dc"><img src="assets/dc.jpg" alt="" class="pictures" width="380px" height="220px">
+            <p>Здесь кроется картинка с разрешением <b>700*350</b></p>
+        </div>
+        <div class="object-item-marvel"><img src="assets/marvel.jpg" alt="" class="pictures" width="380px"
+                height="220px">
+            <p>Здесь кроется картинка с разрешением <b>1920*1035</b></p>
+        </div>
+    </div>
+    <div class="row-title"><h2>Universes in a row</h2></div>
+    <div class="row-container">
+        <div class="row-marvel"><img src="assets/marvel.jpg" alt="" class="marvel-img">
+            <div class="row-marvel-text"><p><b>Marvel</b></p>
+            <p>Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as
+                Timely Comics, and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the
+                year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack
+                Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified
+                as the company's primary brand.</div></p>
+        </div>
+        <div class="row-dc"><img src="assets/dc.jpg" alt="" class="dc-img">
+            <div class="row-dc-text"><p><b>DC</b></p>
+            <p>DC Comics is one of the largest and oldest American comic book companies, with their first comic under
+                the DC banner being published in 1937.The majority of its publications take place within the fictional
+                DC Universe and feature numerous culturally iconic heroic characters, such as Superman, Batman, and
+                Wonder Woman.</p></div>
+        </div>
+        <div class="row-starwars"><img src="assets/starwars.png" alt="" class="starwars-img">
+            <div class="row-starwars-text"><p><b>Star Wars</b></p>
+            <p>Star Wars was released on May 25, 1977, and first subtitled Episode IV: A New Hope in the 1979 book The
+                Art of Star Wars.Episode V: The Empire Strikes Back was released on May 21, 1980, also achieving wide
+                financial and critical success. The final film in the trilogy, Episode VI: Return of the Jedi was
+                released on May 25, 1983.</p></div>
+        </div>
+    </div>
+</body>
+
+</html>
